@@ -50,11 +50,29 @@
         <div class="announcement-bar-content">
           <p class="phone-number"> +420 736 603 917&nbsp; |&nbsp; info@mazlickof.cz </p>
         </div>
+        
       </div>
     </section>
     <!--header section -->
     <section class="headerSection">
+      <div class="foricons">
+        <img src="images/pin.png" alt="logo" class="margin-left" width="7px" height="7px">
+          
+        <img src="images/insta.png" alt="logo" class="margin-left" width="7px" height="7px">
+          
+      <img src="images/face.png" alt="logo" class="margin-left" width="7px"
+          height="7px">
+    
+    </div>
+      
+      
+      
+      <div class="num">
+        <p style="text-align: center;"> +420 736 603 917&nbsp; |&nbsp; info@mazlickof.cz </p>
+      </div>
       <div class="header">
+        
+        
         <div class="item1">
           <div class="socialmedia3"><img src="images/Vector3.png" alt="logo" class="margin-left" width="25px"
               height="25px">
@@ -112,6 +130,9 @@
         </div>
         <img class="animals" src="images/img2.png" class="center" </section>
         <style>
+          .foricons{
+            display: none;
+          }
           .now {
             font-family: "gilroy";
             font-size: 25px;
@@ -120,6 +141,9 @@
             margin-top: 78px;
             margin-bottom: 0;
             color: #000000;
+          }
+          .num{
+            display: none;
           }
 
           img {
@@ -171,7 +195,7 @@
             justify-content: right;
             flex-direction: row-reverse;
             gap: 18px;
-            padding-top: 10%;
+            padding-top: 6%;
 
           }
 
@@ -259,7 +283,8 @@
             background: white;
 
           }
-
+        
+         
           .announcement {
             display: flex;
             max-width: 100%;
@@ -319,6 +344,10 @@
             .announcement-bar-content {
               display: none;
             }
+            .item1 {
+              display: none;
+            }
+            
 
             .item2 {
               display: none;
@@ -327,8 +356,53 @@
             nav {
               display: none;
             }
+            .foricons{
+              display: block;
+            max-width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            background:#FF97AB;
+            color: black;
+            font-family: "gilroy";
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+            height: 22px;
+            font-size: 15px;
+            padding-top: 15px;
+            margin: 0;
+            
+            }
 
+           .num{ 
+            display: flex;
+            max-width: 100%;
+            justify-content: center;
+            align-items: center;
+            background:lightgray;
+            color: black;
+            font-family: "gilroy";
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+            height: 24px;
+            font-size: 15px;
+            padding-top: 15px;
+            margin: 0;
+
+           }
+           .header{
+            display: block;
+           }
+           .logotime{
+            padding-top: 0;
+            margin:0;
+           }
           }
+           
+          
         </style>
 
       </div>
